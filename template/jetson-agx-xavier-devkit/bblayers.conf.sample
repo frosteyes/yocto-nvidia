@@ -8,6 +8,7 @@ BBFILES ?= ""
 YOCTOROOT = "${@os.path.abspath(os.path.join("${TOPDIR}", os.pardir))}"
 
 BBLAYERS ?= " \
+  ${YOCTOROOT}/meta-backport \
   ${YOCTOROOT}/poky/meta \
   ${YOCTOROOT}/poky/meta-poky \
   ${YOCTOROOT}/poky/meta-yocto-bsp \
