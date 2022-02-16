@@ -144,10 +144,6 @@ EXTRA_IMAGE_FEATURES ?= "debug-tweaks"
 # Add printing to the image
 CORE_IMAGE_EXTRA_INSTALL += "cuda-samples"
 
-# Because of cuda - we need gcc 8
-# https://github.com/OE4T/meta-tegra/wiki/Using-gcc8-from-the-contrib-layer
-GCCVERSION = "8.%"
-
 #
 # Additional image features
 #

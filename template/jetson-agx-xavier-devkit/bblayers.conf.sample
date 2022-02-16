@@ -12,6 +12,5 @@ BBLAYERS ?= " \
   ${YOCTOROOT}/poky/meta-poky \
   ${YOCTOROOT}/poky/meta-yocto-bsp \
   ${YOCTOROOT}/meta-tegra \
-  ${YOCTOROOT}/meta-tegra/contrib \
   ${YOCTOROOT}/meta-openembedded/meta-oe \
   "
