@@ -141,8 +141,8 @@ PACKAGE_CLASSES ?= "package_rpm"
 # We default to enabling the debugging tweaks.
 EXTRA_IMAGE_FEATURES ?= "debug-tweaks"
 
-# Add printing to the image
-CORE_IMAGE_EXTRA_INSTALL += "cuda-samples"
+# Extra packaages for this sample project
+CORE_IMAGE_EXTRA_INSTALL += "cuda-samples l4t-graphics-demos"
 
 #
 # Additional image features
