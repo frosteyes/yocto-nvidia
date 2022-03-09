@@ -34,7 +34,7 @@
 #MACHINE ?= "edgerouter"
 #
 # This sets the default machine to be qemux86-64 if no other machine is selected:
-MACHINE ??= "jetson-agx-xavier-devkit"
+MACHINE ??= "agx-xavier-lauterbach"
 
 #
 # Where to place downloads

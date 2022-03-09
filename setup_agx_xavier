@@ -6,5 +6,5 @@ else
 	export ROOT=$(readlink -f ${PWD})
 fi
 
-export TEMPLATECONF=$ROOT/template/jetson-agx-xavier-devkit
+export TEMPLATECONF=$ROOT/template/agx-xavier-lauterbach
 source $ROOT/poky/oe-init-build-env "$@"

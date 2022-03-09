@@ -12,4 +12,5 @@ BBLAYERS ?= " \
   ${YOCTOROOT}/poky/meta-poky \
   ${YOCTOROOT}/poky/meta-yocto-bsp \
   ${YOCTOROOT}/meta-tegra \
+  ${YOCTOROOT}/meta-lauterbach \
   "
