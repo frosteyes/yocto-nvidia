@@ -1,7 +1,7 @@
-Sample Yocto Project for building image to Nvidia Jetson AGX Xavier developer kit
+Sample Yocto Project for building image to Nvidia Jetson AGX Xavier / Orin developer kit
 =============================================
 This repository provides an example core-image-sato / core-image-minimal with 
-cuda-samples for testing on [Jetson AGX Xavier developent](https://developer.nvidia.com/embedded/jetson-agx-xavier-developer-kit).
+cuda-samples for testing on [Jetson AGX Xavier developent](https://developer.nvidia.com/embedded/jetson-agx-xavier-developer-kit) or [Jetson AGX Orin developent](https://developer.nvidia.com/embedded/jetson-agx-orin-developer-kit).
 
 Before trying to use this, please see yocto project [quick build](https://docs.yoctoproject.org/brief-yoctoprojectqs/index.html)
 for setting up a native Linux host for building the image.
@@ -18,11 +18,7 @@ Getting Started
 
 **2.  Setup yocto.**
 
-Source the setup script. Optional select a build folder. If no build folder is 
-selected a standard folder named *build*:
-
-    $ cd yocto-nvidia
-    $ source setup_agx_xavier build_master
+Copy the template to the build folder and source oe-init-build-env
 
 After you have sourced the setup, please look into the *conf/local.conf* file.
 Specifically the variables **DL_DIR** and **SSTATE_DIR** is relevant to save
